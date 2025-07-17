@@ -4,7 +4,7 @@ const router = express.Router();
 const Product = require('../models/Product');
 const { protect } = require('../middleware/middleware');
 
-// Crear producto (solo admin)
+// Crear producto (requiere autenticación)
 router.post('/', protect, async (req, res) => {
     try {
         const product = await Product.create(req.body);
