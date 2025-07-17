@@ -2,6 +2,7 @@
 const express = require('express');
 const router = express.Router();
 const Product = require('../models/Product');
+const mongoose = require('mongoose');
 const { protect } = require('../middleware/middleware');
 
 // Crear producto (solo admin)

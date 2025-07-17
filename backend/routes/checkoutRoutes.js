@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const paypal = require('@paypal/checkout-server-sdk');
-//const client = require('../config/paypal'); // Asegúrate de tener configurado tu cliente de PayPal
+const client = require('../config/paypal'); // Cliente de PayPal configurado
 
 // Función para calcular el total del carrito
 function calculateTotal(cart) {
