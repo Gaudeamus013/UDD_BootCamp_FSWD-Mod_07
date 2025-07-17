@@ -4,7 +4,7 @@ const Suscribirse = () => {
   return (
     <div>
         <form className="flex flex-row items-center bg-white gap-4 border border-black rounded-lg p-8 shadow-md">
-                    <h2 className="text-lg font-bold mb-4 text-center">Quieres recibir las últimas novedades?</h2>
+                    <h2 className="text-lg font-bold mb-4 text-center">¿Quieres recibir las últimas novedades?</h2>
                     <label htmlFor="email" className="block text-gray-700 mb-2">
                     </label>
                     <input
